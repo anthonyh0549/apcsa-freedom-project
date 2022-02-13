@@ -40,6 +40,6 @@ Skills that I will need to utilize during the coming break are...
 
 
 
-[Next](entry03.md)
+[Previous](entry01.md) | [Next](entry03.md)
 
 [Home](../README.md)

@@ -1,17 +1,39 @@
-# Entry 2
-##### 12/9/21
+# Entry 3
+##### 2/11/22
 
 ## Overview / Sources
 
-In my previous entry, I went over <b>Swift</b>. <b>Swift</b> is a general-purpose computer language developed and marketed by Apple Inc. This computer language is tailored for iOS application development. I briefly went over what my app will do and some outlines. In this entry, I will go more in-depth where I want to go with this project, "The Programmer Notebook". The focus for this project will be for it to be developer or programmer-focused. I have yet to come across a note-taking app that genuinely is for developers and is not a cash grab or was made with developers in mind but with little research or understanding of the field. My vision for this application is that it will open to change. I want a dedicated formula for input and change, have users be able to utilize features they want and turn off ones they don't want. Give users the freedom of changing to different versions if they have a preference or even code in their preferences if they want. Similar to Wikipedia where everyone can freely share and use.
+In my previous entry, I went over my goals for my project and <b>Swift</b>. <b>Swift</b> is a general-purpose computer language developed and marketed by Apple Inc. <b>Swift</b> is tailored for iOS application development. I went over what I wanted my app to do and my ambitions. This entry will go over what I have done to move closer to my project goals, "The Programmer Notebook". I wasn't able to continue my "full-dive" that was planned to do over break as I had a family emergency that pulled me away. I will spread it over the free time I have and plan for my next break to finish my research. In this entry, I will go over what I have done and how I have gotten closer to my end goal, my end product. 
 
-<b>Potential Basic Features</b>
-<li>Code Blocks</li>
-<li>Code Proofreading</li>
-<li>In Text Notes</li>
+## Storing Data
+
+This code snippet is for creating a note. Specifically, this is to introduce methods to resolve, confirm, and handle requests to create notes. 
+
+`protocol INCreateNoteIntentHandling`
 
 
+### Protocol
 
+A <b>protocol</b> defines a blueprint of methods, properties, and other requirements that suit a particular task or piece of functionality
+
+## Rertieve Data
+```
+optional func resolveContent(for intent: INCreateNoteIntent, 
+                        with completion: @escaping (INNoteContentResolutionResult) -> Void)
+```
+This code snippet is a example how to retreieve stored user data. 
+
+### intent
+The intent object contains details about the user’s request. This object is used to get the  information
+
+### completion
+This execute the resolution. You must execute this at some point during your implementation of this method. Has no return value and takes the following parameter:
+
+### resolutionResult
+The object contains the details of the proposed resolution. For successful resolutions, create a resolution object with the text or image that you intend to use as the main content of the note.
+
+
+#### Sources: <b><a href="https://developer.apple.com/">Apple Developer Pages</a></b>
 
 ## Engineering Design Process (EDP)
 
@@ -21,8 +43,9 @@ After I have that I can countinue this passion project and leave something behin
  
 ## Knowledge/ Goals
 
-This upcoming winter break I plan to fully dive into learning <b>Swift</b> with the extra time I have. After first impressions, I see that <b>Swift</b> is user-friendly but this does not mean you can just jump in. It does a lot to make coding streamlined and straightforward but knowing what you are doing can make this process extremely easy. I have compiled a small playlist with resources to learn <b>Swfit</b>. 
+I have done research but I ran into issues regarding my laptop running x-code. I will fix this and continue trying different ways to save user data. I have a lot of questions regarding concepts and relationships being used. I will leave the specifics of my gaols open-ended as It is still generally learning more about Swift and its fundamentals. 
 
+ 
 <b>Sources To Review</b>
 <li><a href="https://www.youtube.com/watch?v=Ulp1Kimblg0&t=84s">Swfit Tutorial Beginners </li>
 <li><a href="https://www.youtube.com/watch?v=comQ1-x2a1Q">Swfit Full Course </li>
@@ -31,9 +54,11 @@ This upcoming winter break I plan to fully dive into learning <b>Swift</b> with 
 
 ## Skills
 Skills that I will need to utilize during the coming break are...
-  <li>Asking Good Questions</li>
-  <li>Networking</li>
+  <li>Analysis</li>
+  <li>Active Reading</li>
   <li>Evaluate</li>
+
+
 
 [Previous](entry02.md) | [Next](entry04.md)
 

@@ -24,8 +24,13 @@ The main grow for me in terms of presentation I think is illustrating my product
 
 <img width="906" alt="Screen Shot 2022-06-12 at 10 56 01 PM" src="https://user-images.githubusercontent.com/56265985/173271593-1d5c7792-f23e-4cd4-a4a5-4706e9a0b341.png">
 
+### EDP
+
+I am currently done, at least in regard to work in class. Now I am in a stage of relfection and seeing ways to add on more. Seeing what I could've done better and so forth. 
 
 ### Skills 
+
+
 
 #### Time Management 
 Being concise and clear during my presentation is very important, not taking too long on a slide is important to retain my audience. 
